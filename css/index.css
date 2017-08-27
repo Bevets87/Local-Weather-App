@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=El+Messiri");
+body {
+  background: black; }
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: 'El Messiri', sans-serif; }
+
+.weather-data-container {
+  margin: 25px auto;
+  height: auto;
+  width: 90%;
+  text-align: center;
+  color: white; }
+  .weather-data-container .location-container {
+    margin-top: 50px;
+    font-family: 'El Messiri', sans-serif; }
+    .weather-data-container .location-container h2 {
+      font-size: 40px; }
+  .weather-data-container .weather-container {
+    margin-top: 25px;
+    font-size: 40px; }
+  .weather-data-container .temp-container {
+    display: inline-block; }
+    .weather-data-container .temp-container button {
+      border: none;
+      outline: none;
+      background: black;
+      color: white;
+      font-size: 40px;
+      cursor: pointer; }
+  .weather-data-container .wi {
+    color: darkblue;
+    font-size: 80px; }
